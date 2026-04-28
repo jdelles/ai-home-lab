@@ -1,0 +1,5 @@
+model_list:
+  - model_name: gemma-local
+    litellm_params:
+      model: ollama/gemma4:e4b
+      api_base: "http://host.docker.internal:11434" # Points to your native Mac Ollama
